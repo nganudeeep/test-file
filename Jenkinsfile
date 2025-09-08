@@ -7,7 +7,7 @@ pipeline {
                 echo "Running on: ${env.NODE_NAME}"
             }
         }
-        stage('Build') {
+        stage('Checkout') {
             steps {
                echo "working"
             }
