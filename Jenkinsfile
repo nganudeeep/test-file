@@ -7,5 +7,10 @@ pipeline {
                 echo "Running on: ${env.NODE_NAME}"
             }
         }
+        stage('Build') {
+            steps {
+               echo "working"
+            }
+        }
     }
 }
